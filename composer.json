@@ -1,0 +1,41 @@
+{
+    "name": "espadav8/phpflagr",
+    "version": "0.1.0",
+    "description": "",
+    "keywords": [
+        "swagger",
+        "php",
+        "sdk",
+        "api"
+    ],
+    "homepage": "http://swagger.io",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Swagger and contributors",
+            "homepage": "https://github.com/swagger-api/swagger-codegen"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "squizlabs/php_codesniffer": "~3.4",
+        "friendsofphp/php-cs-fixer": "~2.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "EspadaV8\\PHPFlagr\\" : "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EspadaV8\\PHPFlagr\\" : "test/"
+        }
+    }
+}

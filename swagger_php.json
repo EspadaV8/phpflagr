@@ -1,0 +1,9 @@
+{
+    "gitUserId": "espadav8",
+    "packagePath": "",
+    "packageUrl": "https://github.com/espadav8/phpflagr",
+    "artifactVersion": "0.1.0",
+    "gitRepoId": "phpflagr",
+    "invokerPackage": "EspadaV8\\PHPFlagr",
+    "variableNamingConvention": "camelCase"
+}
